@@ -1,0 +1,22 @@
+baseURL: https://blog.jrasm.com/
+languageCode: en-us
+title: My Two Bytes
+theme: "PaperMod"
+
+params:
+  defaultTheme: dark
+  disableThemeToggle: true
+  showShareButtons: false
+  showReadingTime: true
+  showBreadCrumbs: false
+  showPostNavLinks: true
+  comments: false
+  homeInfoParams:
+    title: Hello 👋!
+    content: >
+      I'm Jason, a 💻 fullstack developer, 👨 husband, and 👨‍👩‍👧 proud father. Welcome to "My Two Bytes", a small blog build with [Hugo](https://gohugo.io). To learn more about why I built this site, see [My Tiny Projects](/posts/my-tiny-projects).
+
+output:
+  home:
+    - JSON
+    - RSS

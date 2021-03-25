@@ -1,11 +1,11 @@
 ---
-title: My Tiny Projects 🚀
+title: 🚀 My Tiny Projects
 date: 2021-03-13
 publishdate: 2021-03-13
 tags: [Angular, Hugo]
 ---
 
-## Tiny Projects
+## Inspiration
 
 The other day I was reading [Hacker News][4] and was inspired by an article written by [Ben Stokes][5], the creator of [tinyprojects.dev][1].
 
@@ -21,7 +21,7 @@ I love the idea of doing "tiny" projects. I too have a list of projects and webs
 
 ## Angular
 
-I come from a webdevelopment background that started with [AngularJS][6] and naturally morphed into [Angular][7]. I do enjoy developing with a framework that _just comes_ with so many things ready to use out of the box. Angular includes:
+I come from a web development background that started with [AngularJS][6] and naturally morphed into [Angular][7]. I do enjoy developing with a framework that _just comes_ with so many things ready to use out of the box. Angular includes:
 
 - A CLI to generate components, services, pipes, modules, etc.
 - Lazy loaded modules
@@ -35,7 +35,7 @@ I come from a webdevelopment background that started with [AngularJS][6] and nat
 - Linting
 - And more...
 
-In my opinion, the increased productivity gains are worth it for large application. They have to be in order to justify the mind-blowing bundle size that is angular... However, a simple blog like this is _not_ a large, complicated application that requires any of that stuff. Or, at least, it doesn't have to be. I have started to build a blog using angular before, but I just can't stomache deploying 500KB+ of javascript for a... blog.
+In my opinion, the increased productivity gains are worth it for large application. They have to be in order to justify the mind-blowing bundle size that is angular... However, a simple blog like this is _not_ a large, complicated application that requires any of that stuff. Or, at least, it doesn't have to be. I have started to build a blog using angular before, but I just can't stomach deploying 500KB+ of javascript for a... blog.
 
 Enter _static site generators_.
 

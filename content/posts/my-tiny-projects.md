@@ -1,8 +1,8 @@
 ---
-title: 🚀 My Tiny Projects
+title: My Tiny Projects 🚀
 date: 2021-03-13
 publishdate: 2021-03-13
-tags: [Angular, Hugo]
+tags: [Angular, Hugo, Projects]
 ---
 
 ## Inspiration

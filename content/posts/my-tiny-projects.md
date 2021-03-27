@@ -1,10 +1,13 @@
 ---
-title: My Tiny Projects 🚀
+title: "My Tiny Projects \U0001F680"
 date: 2021-03-13
 publishdate: 2021-03-13
-tags: [Angular, Hugo]
----
+tags:
+- Angular
+- Hugo
+- Projects
 
+---
 ## Tiny Projects
 
 The other day I was reading [Hacker News][4] and was inspired by an article written by [Ben Stokes][5], the creator of [tinyprojects.dev][1].

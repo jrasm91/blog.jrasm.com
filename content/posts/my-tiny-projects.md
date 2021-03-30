@@ -1,11 +1,8 @@
 ---
-title: "My Tiny Projects \U0001F680"
+title: "My Tiny Projects 🚀"
 date: 2021-03-13
 publishdate: 2021-03-13
-tags:
-  - Angular
-  - Hugo
-  - Projects
+tags: [Angular, Hugo, Projects]
 ---
 
 ## Tiny Projects
@@ -20,11 +17,11 @@ The other day I was reading [Hacker News][4] and was inspired by an article writ
 >
 > — [Ben Stokes][1]
 
-I love the idea of doing "tiny" projects. I too have a list of projects and website ideas on my phone. The goal of _this_ site is to help me explore and document some of _these_ ideas. The first idea is to build this blog.
+I love the idea of doing "tiny" projects. I have a list of projects ideas and websites on my phone that I never seem to get around too. The goal of _this_ site is to help motivate me to explore and document some of _those_ ideas. The first idea in my list is to build a blog 😁.
 
 ## Angular
 
-I come from a web development background that started with [AngularJS][6] and naturally morphed into [Angular][7]. I do enjoy developing with a framework that _just comes_ with so many things ready to use out of the box. Angular includes:
+I come from a web development background that started with [AngularJS][6], which naturally has evolved into [Angular][7]. I do enjoy developing with a framework that _just comes_ with so many things ready to use out of the box. Angular includes:
 
 - A CLI to generate components, services, pipes, modules, etc.
 - Lazy loaded modules
@@ -46,7 +43,7 @@ Enter _static site generators_.
 
 If you have ever researched building a blog, you have probably heard of [Hugo][2]. It is a _very fast_ static site generator. It is written in [Go][3], which is already known for being performant. The idea of a static site generator is to take in structured data (posts, pages, etc.), render them once (at build time), and output static html, which can be easily hosted (for free). Hugo seemed easy enough to install and use, so I decided to give it a try.
 
-I chose to use the [PaperMod][8] theme, which was as simple as cloning a repo in the `themes` directory and adding some options to `config.yml`. Easy enough, right? Building this blog has been super simple (so far). I'd definitely recommend giving it a try. There is a vast collection of themes available for a variety of use cases, including blogs, portfolios, and personal sites.
+I chose to use the [PaperMod][8] theme, which was as simple as cloning a repo in the `themes` directory and adding some options to `config.yml`. Easy enough, right? Building this blog has been super simple (so far). I'd definitely recommend giving it a try. There is a vast collection of themes available for a variety of use cases, including blogs, portfolios, and personal sites. Check them out [here][9].
 
 [1]: https://tinyprojects.dev/
 [2]: https://gohugo.io
@@ -56,3 +53,4 @@ I chose to use the [PaperMod][8] theme, which was as simple as cloning a repo in
 [6]: https://angularjs.org
 [7]: https://angular.io
 [8]: https://adityatelange.github.io/hugo-PaperMod/
+[9]: https://themes.gohugo.io/

@@ -29,7 +29,7 @@ When VSCode is launched via the app icon, it has to do some extra stuff to make 
 
 I have noticed, in the past, that the terminal window opens right away, but sometimes takes a few seconds before it is interactive. It seems the system is still loading and something blocks the terminal process for a few seconds. I think VSCode is experiencing a very similar problem, which could explain why it only happens on startup.
 
-I get lost in enough rabbit holes as it is, so I didn't bother to go down this one any further. Regardless of the exact cause, I needed a solution. I could hit the "Don't Show Again" button, but I decided to try to find a better solution. I decided to investigate how VSCode was being started and possibly change it from the app icon method to the terminal method.
+I get lost in enough rabbit holes as it is, so I didn't bother to go down this one any further. Regardless of the exact cause, I needed a solution. I could hit the "Don't Show Again" button, but I decided to try to find a better one. I started to investigate how VSCode was being launched with the hopes that I might be able to change it from the app icon method to the terminal method.
 
 ## Startup Applications
 
@@ -53,13 +53,13 @@ The full command is:
 env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/code_code.desktop /snap/bin/code --force-user-env --no-sandbox --unity-launch %F
 ```
 
-The command looks long and complicated, and the `--force-user-env` argument looks pretty suspicious. This is most definitely the "app icon" method.
+The command looks long and complicated, but the `--force-user-env` argument looks pretty suspicious. This is most definitely the "app icon" method.
 
 ## Solution
 
-The solution was pretty simple. I changed this to the "terminal" method by deleting the whole command and replacing it just a single word, `code`.
+The solution was pretty simple. I changed this to the "terminal" method by deleting the command and replacing it with `code` instead.
 
-To test it, I restarted my machine 🤞. Luckily, that seemed to have fixed the problem. Everything still worked, and the warning and error messages were gone. Yay! 🎉
+To test it, I restarted my machine 🤞. Luckily, that seemed to have fixed the problem. Everything still worked, and the warning and error messages were gone. Yay! 🎉. To Be fair, I don't use any environment variables set via `.bashrc` in debug targets or tasks... so I'm not 100% that it's being loaded. But hey, the error message is gone right?
 
 ## Additional Notes
 

@@ -1,10 +1,10 @@
-+++
-date = 2021-03-29T07:00:00Z
-publishdate = 2021-03-29T07:00:00Z
-tags = ["CI/CD", "Hugo", "GitHub", "Forestry"]
-title = "Continuous Deployment 🔄"
+---
+title: "Continuous Deployment 🔄"
+date: 2021-03-29
+publishdate: 2021-03-29
+tags: ["CI/CD", "Hugo", "GitHub", "Forestry"]
+---
 
-+++
 Deploying a new post to this blog is pretty easy. I just run these two commands:
 
 ```bash
@@ -12,7 +12,7 @@ hugo
 firebase deploy only:hosting
 ```
 
-However, this does require me to be on my computer to do a deployment. If I want to fix a spelling mistake, publish a draft, or update some content on another page I would have to be at home, on my computer. I wanted to what it would take to write and deploy a post from my phone.
+However, this does require me to be on my computer to do a deployment. If I want to fix a spelling mistake, publish a draft, or update some content on another page I would have to be at home, on my computer. I wanted to see what it would take to write and deploy something from my phone.
 
 Conceptually, there are two things that need to happen:
 
@@ -51,36 +51,38 @@ Perfect! That wraps up step 1. I was able to write a post on my phone and save i
 
 ## GitHub Actions
 
-Now that I can write posts and commit changes to my repository, it was time to enable continuous deployments. I used [GitHub Actions](https://github.com/features/actions "GitHub Actions") is run a job on every commit to the `production` branch. This workflow leveraged pre-existing actions, so it was super quick to get up and running. The entire workflow file is less than 30 lines long and was created at `.github/workflows/main.yml`
+Now that I can write posts and commit changes to my repository, it was time to enable continuous deployments. I used [GitHub Actions](https://github.com/features/actions "GitHub Actions") is run a job on every commit to the `dev` branch. This workflow leveraged pre-existing actions, so it was super quick to get up and running. The entire workflow file is less than 30 lines long and I saved it to `.github/workflows/main.yml`
 
-    name: CI/CD
-    on:
-      push:
-        branches: [production]
-    jobs:
-      build:
-        runs-on: ubuntu-latest
-        steps:
-          - name: Checkout
-            uses: actions/checkout@v2
+```yaml
+name: CI/CD
+on:
+  push:
+    branches: [dev]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
 
-          - name: Setup Hugo
-            uses: peaceiris/actions-hugo@v2
-            with:
-              hugo-version: "0.81.0"
-              extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.81.0"
+          extended: true
 
-          - name: Build Site
-            run: hugo
+      - name: Build Site
+        run: hugo
 
-          - name: Deploy to Firebase
-            uses: w9jds/firebase-action@master
-            with:
-              args: deploy --only hosting
-            env:
-              FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+```
 
-Once this file was committed and there was a commit to the `production` branch, I went to the `Actions` tab to view the build.
+Once this file was committed and there was a commit to the `dev` branch, I went to the `Actions` tab to view the build.
 
 ![](/uploads/forestry-step4.png)
 
@@ -94,6 +96,24 @@ Forestry is a neat little service that enabled me to more easily write and edit 
 
 ## Additional Notes
 
-I originally did CI/CD on the one and only `dev` branch, but it seemed a little weird to run a whole deployment whenever I made a change to a draft post, so I updated it to use the `production` branch instead. Since Forestry commits to the `dev` branch, I technically will need to do a pull request to `production` before there's a deployment. This should be fine as it will allow me to more easily control and see what changes are being deployed.
+### Workflow Triggers
 
-Hugo has migrated from installing themes with `submodules` to [Hugo Modules](https://gohugo.io/hugo-modules/ "Hugo Modules"). I originally was using a`submodule`, so I had to add `submodules: true` under the `with:` section of the workflow file. I've since migrated to Hugo Modules and have found it to be a lot simpler to use.
+I originally triggered the workflow via the on push event, but it seemed a little weird to run a whole deployment whenever I made a change to a draft. I then tried a `production` branching strategy, where I would do open a pull request to `production` whenever I wanted to do a deployment. This ended up being really annoying. It turned a short spelling update into a long, multi-step process. I've lately landed on a hybrid approach. My workflow now runs on a schedule (every night) and via the `workflow_dispatch` event, which allows for manual starts. My `main.yml` file triggers section looks like this now:
+
+```yaml
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+```
+
+### Hugo Modules
+
+Hugo has migrated from installing themes with `git submodule` to [Hugo Modules](https://gohugo.io/hugo-modules/ "Hugo Modules"). I originally was using a`git submodule`, which required this setting in the workflow checkout step:
+
+```yaml
+with:
+  submodules: true
+```
+
+I've since migrated to Hugo Modules and have found it a lot simpler. With Hugo Modules, this extra option was no longer required.

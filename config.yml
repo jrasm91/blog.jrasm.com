@@ -2,18 +2,39 @@ baseURL: https://blog.jrasm.com/
 languageCode: en-us
 title: My Two Bytes
 
+enableRobotsTXT: true
+googleAnalytics: UA-101199977-2
+
 module:
   imports:
     - path: "github.com/adityatelange/hugo-PaperMod"
 
 params:
+  env: production
+  title: My Two Bytes
+  description: My two bytes about software, programming, and technology.
+
   defaultTheme: dark
   disableThemeToggle: true
+
   showShareButtons: false
   showReadingTime: true
   showBreadCrumbs: false
   showPostNavLinks: true
+
   comments: false
+
+  label:
+    text: "My Two Bytes"
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/jrasm91"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/2833217/jrasm91"
+    - name: github
+      url: "https://github.com/jrasm91"
+
   homeInfoParams:
     title: Hello 👋!
     content: >

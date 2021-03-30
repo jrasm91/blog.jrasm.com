@@ -1,11 +1,10 @@
 +++
-date = 2021-03-26T07:00:00Z
+date = 2021-03-29T07:00:00Z
 publishdate = 2021-03-29T07:00:00Z
 tags = ["CI/CD", "Hugo", "GitHub", "Forestry"]
 title = "Continuous Deployment 🔄"
 
 +++
-
 Deploying a new post to this blog is pretty easy. I just run these two commands:
 
 ```bash

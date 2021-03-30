@@ -1,11 +1,11 @@
 +++
 date = 2021-03-26T07:00:00Z
-draft = true
 publishdate = 2021-03-29T07:00:00Z
 tags = ["CI/CD", "Hugo", "GitHub", "Forestry"]
 title = "Continuous Deployment 🔄"
 
 +++
+
 Deploying a new post to this blog is pretty easy. I just run these two commands:
 
 ```bash
@@ -64,16 +64,16 @@ Now that I can write posts and commit changes to my repository, it was time to e
         steps:
           - name: Checkout
             uses: actions/checkout@v2
-            
+
           - name: Setup Hugo
             uses: peaceiris/actions-hugo@v2
             with:
               hugo-version: "0.81.0"
               extended: true
-              
+
           - name: Build Site
             run: hugo
-            
+
           - name: Deploy to Firebase
             uses: w9jds/firebase-action@master
             with:
@@ -85,9 +85,9 @@ Once this file was committed and there was a commit to the `production` branch, 
 
 ![](/uploads/forestry-step4.png)
 
-Boom! The site was built and deployed in 30 seconds flat. 
+Boom! The site was built and deployed in 30 seconds flat.
 
-I did a few more tests from Forestry and it worked like a charm. 
+I did a few more tests from Forestry and it worked like a charm.
 
 ## Conclusion
 

@@ -9,6 +9,17 @@ module:
   imports:
     - path: "github.com/adityatelange/hugo-PaperMod"
 
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+
 params:
   env: production
   title: My Two Bytes
@@ -19,7 +30,7 @@ params:
 
   showShareButtons: false
   showReadingTime: true
-  showBreadCrumbs: false
+  showBreadCrumbs: true
   showPostNavLinks: true
 
   comments: false

@@ -1,9 +1,9 @@
 ---
-title: "All the Technologies"
+title: "Webdeveloper Technologies"
 date: 2021-04-01T20:55:34-07:00
 ---
 
-I'm a webdeveloper and boy oh boy do we use a few different technologies. To put it into perspective, I thought I would make a list of all the technologies, tools, frameworks, libraries, languages, stacks, services, etc., that I've personally used at some point.
+I'm a webdeveloper and I have found that I use a _lot_ of different technologies. To put it into perspective, I thought I would make a list of all the technologies, tools, frameworks, libraries, languages, stacks, services, etc., that I've personally used at some point in my career.
 
 ### 🔣 Languages
 

@@ -89,7 +89,7 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 2. [Grunt](https://gruntjs.com/)
 3. [Gulp](https://gulpjs.com/)
 
-## ️🔗 Version Control
+### ️🔗 Version Control
 
 0. [Git](https://git-scm.com/)
 1. [SVN: Subversion](https://subversion.apache.org/)

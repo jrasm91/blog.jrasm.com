@@ -33,7 +33,11 @@ params:
   showBreadCrumbs: true
   showPostNavLinks: true
 
+  disableScrollToTop: true
   comments: false
+
+  cover:
+    hiddenInList: true
 
   label:
     text: "My Two Bytes"

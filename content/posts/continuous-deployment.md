@@ -1,5 +1,5 @@
 ---
-title: "Continuous Deployment 🔄"
+title: "Continuous Deployment (CI/CD) 🔄"
 description: "Building a CI/CD pipeline with Forestry and GitHub Actions."
 date: 2021-03-29
 publishdate: 2021-03-29

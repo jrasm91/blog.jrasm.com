@@ -1,6 +1,7 @@
 ---
 title: "Web Development Technologies 📝"
-date: 2021-04-01T20:55:34-07:00
+date: 2021-04-01
+publishdate: 2021-04-01
 tags:
   - Web
   - Development

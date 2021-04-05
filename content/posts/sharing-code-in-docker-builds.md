@@ -1,6 +1,7 @@
 ---
 title: Sharing Code in Docker Builds 🤝
-date: 2021-04-02T11:22:17-07:00
+date: 2021-04-02
+publishdate: 2021-04-02
 cover:
   image: images/logos/docker.png
   caption: Docker

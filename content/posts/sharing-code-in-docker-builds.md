@@ -1,5 +1,5 @@
 ---
-title: 🤝 Sharing Code in Docker Builds
+title: 🐳 Sharing Code in Docker Builds
 date: 2021-04-02
 publishdate: 2021-04-02
 cover:

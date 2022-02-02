@@ -7,7 +7,7 @@ googleAnalytics: UA-101199977-2
 
 module:
   imports:
-    - path: "github.com/adityatelange/hugo-PaperMod"
+    - path: 'github.com/adityatelange/hugo-PaperMod'
 
 menu:
   main:
@@ -40,20 +40,20 @@ params:
     hiddenInList: true
 
   label:
-    text: "My Two Bytes"
+    text: 'My Two Bytes'
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/jrasm91"
+      url: 'https://twitter.com/jrasm91'
     - name: stackoverflow
-      url: "https://stackoverflow.com/users/2833217/jrasm91"
+      url: 'https://stackoverflow.com/users/2833217/jrasm91'
     - name: github
-      url: "https://github.com/jrasm91"
+      url: 'https://github.com/jrasm91'
 
   homeInfoParams:
     title: Hello 👋!
     content: >
-      I'm Jason, a 💻 fullstack developer, 👨 husband, and 👨‍👩‍👧 proud father. Welcome to "My Two Bytes", a small blog build with [Hugo](https://gohugo.io). To learn more about why I built this site, see [My Tiny Projects](/posts/my-tiny-projects).
+      I'm Jason, a 💻 fullstack developer, 👨 husband, and 👨‍👩‍👧 proud father. Welcome to "My Two Bytes", a small blog build with [Hugo](https://gohugo.io).
 
 output:
   home:

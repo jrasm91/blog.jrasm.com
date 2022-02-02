@@ -11,12 +11,20 @@ menu:
   main:
     - identifier: posts
       name: Posts
-      url: /posts/
+      url: /posts
       weight: 10
+    - identifier: notes
+      name: Notes
+      url: /notes
+      weight: 20
     - identifier: tags
       name: Tags
-      url: /tags/
-      weight: 20
+      url: /tags
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 40
 
 params:
   env: production
@@ -53,7 +61,8 @@ params:
     content: >
       I'm Jason, a 💻 fullstack developer, 👨 husband, and 👨‍👩‍👧 proud father. Welcome to "My Two Bytes", a small blog build with [Hugo](https://gohugo.io).
 
-output:
+outputs:
   home:
-    - JSON
+    - HTML
     - RSS
+    - JSON

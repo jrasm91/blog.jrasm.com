@@ -1,8 +1,8 @@
 ---
-title: Fixing VSCode Shell Environment ️️🛠
+title: 🛠 Fixing VSCode Shell Environment
 date: 2021-03-25
 publishdate: 2021-03-25
-tags: [VSCode, Shell, "Startup Application"]
+tags: [VSCode, Shell, Startup Application]
 ---
 
 ## Background
@@ -21,7 +21,7 @@ code
 
 2. From the user interface, via the app icon:
 
-![Launch VSCode from App Icon](/images/vscode-shell-environment/vscode-app-icon.png "Test title")
+![Launch VSCode from App Icon](/images/vscode-shell-environment/vscode-app-icon.png 'Test title')
 
 When VSCode is launched via the app icon, it has to do some extra stuff to make sure environment variables set via `.bashrc` or `.zshrc` are properly loaded. If that process (which is basically just launching a shell) takes longer than three or ten seconds, you respectively get a warning and/or error on startup.
 

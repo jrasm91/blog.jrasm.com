@@ -1,5 +1,5 @@
 ---
-title: "Web Development Technologies 📝"
+title: 📝 Web Development Technologies
 date: 2021-04-01
 publishdate: 2021-04-01
 tags:

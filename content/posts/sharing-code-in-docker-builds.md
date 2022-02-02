@@ -1,5 +1,5 @@
 ---
-title: Sharing Code in Docker Builds 🤝
+title: 🤝 Sharing Code in Docker Builds
 date: 2021-04-02
 publishdate: 2021-04-02
 cover:
@@ -7,11 +7,7 @@ cover:
   caption: Docker
   responsiveImages: true
   hiddenInList: true
-tags:
-  - Docker
-  - Dockerfile
-  - .dockerignore
-  - TypeScript
+tags: [Docker, Dockerfile, .dockerignore, TypeScript]
 ---
 
 Docker is great. But also, it can be a pain to work with sometimes. Today was one of those days. I had a pretty simple project with a frontend and a backend, both written in [TypeScript][0]. The two projects had some common interfaces that I wanted to share between the two projects.

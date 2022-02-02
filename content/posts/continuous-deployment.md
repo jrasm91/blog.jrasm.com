@@ -1,9 +1,9 @@
 ---
-title: "Continuous Deployment (CI/CD) 🔄"
-description: "Building a CI/CD pipeline with Forestry and GitHub Actions."
+title: 🔄 Continuous Deployment (CI/CD)
+description: Building a CI/CD pipeline with Forestry and GitHub Actions.
 date: 2021-03-29
 publishdate: 2021-03-29
-tags: ["CI/CD", "Hugo", "GitHub", "Forestry"]
+tags: [CI/CD, Hugo, GitHub, Forestry]
 ---
 
 Deploying a new post to this blog is pretty easy. I just run these two commands:
@@ -28,21 +28,21 @@ It turns out there are several Android apps for writing in markdown. However, it
 
 ## Forestry
 
-So, this isn't how I was originally planning to accomplish my goal, but I've been pretty happy with what I've discovered so far. I tried out a service called [Forestry](https://forestry.io/ "Forestry"). With it you can create a new "site" and link it to a git repository.
+So, this isn't how I was originally planning to accomplish my goal, but I've been pretty happy with what I've discovered so far. I tried out a service called [Forestry](https://forestry.io/ 'Forestry'). With it you can create a new "site" and link it to a git repository.
 
-![](/uploads/forestry-step0.png "Forestry Site List")
+![](/uploads/forestry-step0.png 'Forestry Site List')
 
 I linked mine to GitHub. They also have support for BitBucket, Gitlab, and Azure Devops.
 
-![](/uploads/forestry-step1.png "Repository Providers")
+![](/uploads/forestry-step1.png 'Repository Providers')
 
 After linking a repository, you can pick your static site generator. I picked Hugo. They also have support for Jekyll, VuePress, and Gatsby, Eleventy, and others.
 
-![](/uploads/forestry-step2.png "Hugo Option")
+![](/uploads/forestry-step2.png 'Hugo Option')
 
 Forestry then imported my site and I saw all (three) of my blog posts show up.
 
-![](/uploads/forestry-step3.png "Forestry Posts")
+![](/uploads/forestry-step3.png 'Forestry Posts')
 
 The editor is a pretty straightforward WYSIWYG editor. I started writing this blog post on Forestry to test it out and it has worked pretty well. I saved my draft and saw a new commit added to my GitHub repository with the comment:
 
@@ -52,7 +52,7 @@ Perfect! That wraps up step 1. I was able to write a post on my phone and save i
 
 ## GitHub Actions
 
-Now that I can write posts and commit changes to my repository, it was time to enable continuous deployments. I used [GitHub Actions](https://github.com/features/actions "GitHub Actions") is run a job on every commit to the `dev` branch. This workflow leveraged pre-existing actions, so it was super quick to get up and running. The entire workflow file is less than 30 lines long and I saved it to `.github/workflows/main.yml`
+Now that I can write posts and commit changes to my repository, it was time to enable continuous deployments. I used [GitHub Actions](https://github.com/features/actions 'GitHub Actions') is run a job on every commit to the `dev` branch. This workflow leveraged pre-existing actions, so it was super quick to get up and running. The entire workflow file is less than 30 lines long and I saved it to `.github/workflows/main.yml`
 
 ```yaml
 name: CI/CD
@@ -69,7 +69,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.81.0"
+          hugo-version: '0.81.0'
           extended: true
 
       - name: Build Site
@@ -105,12 +105,12 @@ I originally triggered the workflow via the on push event, but it seemed a littl
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
 ```
 
 ### Hugo Modules
 
-Hugo has migrated from installing themes with `git submodule` to [Hugo Modules](https://gohugo.io/hugo-modules/ "Hugo Modules"). I originally was using a`git submodule`, which required this setting in the workflow checkout step:
+Hugo has migrated from installing themes with `git submodule` to [Hugo Modules](https://gohugo.io/hugo-modules/ 'Hugo Modules'). I originally was using a`git submodule`, which required this setting in the workflow checkout step:
 
 ```yaml
 with:

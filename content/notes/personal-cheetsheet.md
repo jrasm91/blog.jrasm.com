@@ -47,6 +47,14 @@ Copy from remote to local
 scp -i key.pem user@remote:~/path/to/src ~/path/to/dest
 ```
 
+### Filesystem
+
+View mounts and available space
+
+```bash
+df -h
+```
+
 ### .bashrc
 
 History

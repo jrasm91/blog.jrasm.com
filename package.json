@@ -8,7 +8,8 @@
     "start:dev": "npm run start",
     "start": "hugo server -D",
     "new:post": "hugo new posts/new-post.md",
-    "build": "hugo"
+    "build": "hugo",
+    "deploy:local": "hugo --baseURL http://localhost:8080/ && cp -R public/. /media/jrasm91/ARCHIVE/PhoneNginx/"
   },
   "repository": {
     "type": "git",

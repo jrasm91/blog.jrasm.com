@@ -52,6 +52,8 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 4. [Ionic](https://ionicframework.com/)
 5. [Angular.js](https://angularjs.org/)
 6. [Nebular (ngx-admin)](https://akveo.github.io/nebular/)
+7. [React](https://reactjs.org)
+8. [Chakra UI](https://chakra-ui.com)
 
 ### ⚠️ Linting
 
@@ -82,6 +84,7 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 3. [Helm](https://helm.sh/)
 4. [GitHub Packages](https://github.com/features/packages)
 5. [Artifactory](https://jfrog.com/artifactory/)
+6. [nvm: Node Version Manager](https://github.com/nvm-sh/nvm)
 
 ### 🔨 Build Tools
 
@@ -102,6 +105,7 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 1. [Firebase](https://firebase.google.com/)
 2. [OAuth](https://oauth.net/)
 3. [JWT: JSON Web Tokens](https://jwt.io/)
+4. [Okta](https://okta.com)
 
 ### 🧾 Databases
 
@@ -126,6 +130,7 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 2. [Azure](https://azure.microsoft.com/en-us/)
 3. [Netlify](https://www.netlify.com/)
 4. [Firebase Hosting](https://firebase.google.com/docs/hosting)
+5. [Vercel](https://vercel.com)
 
 ### 🔄 CI / CD
 

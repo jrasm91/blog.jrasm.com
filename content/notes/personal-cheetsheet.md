@@ -47,6 +47,30 @@ Copy from remote to local
 scp -i key.pem user@remote:~/path/to/src ~/path/to/dest
 ```
 
+### .bashrc
+
+History
+
+```bash
+HISTSIZE=10000
+HISTFILESIZE=20000
+```
+
+PS1
+
+Show git branch (important part is `$(__git_ps1)` wrapped in red escape)
+
+```
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\[\e[91m\]$(__git_ps1)\[\e[00m\]$ '
+```
+
+Aliases
+
+```bash
+alias new-password="openssl rand -base64 32"     # random characters
+alias dev="npm run start:dev"                    # dev => npm run start:dev
+```
+
 ## Development
 
 ### Node
@@ -74,4 +98,14 @@ docker logs <CONTAINER> --follow --since 1h
 .tables       # list tables
 .mode column  # display in columns
 .headers on   # show column headers
+```
+
+### Git
+
+```
+git config --global user.name "John Doe"
+git config --global user.email john@doe.com
+git config --global core.editor vim
+git config --global log.date relative
+git config --global format.pretty format:%C(yellow)%h %Cblue%>(14)%ad %Cgreen%<(16)%aN%Cred%d %Creset%s
 ```

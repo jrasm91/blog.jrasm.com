@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "npm run start",
     "start": "hugo server -D",
+    "new:post": "hugo new posts/new-post.md",
     "build": "hugo"
   },
   "repository": {

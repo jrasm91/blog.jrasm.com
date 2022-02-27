@@ -9,7 +9,7 @@ showToc: false
 tocOpen: false
 ---
 
-A VIM macro is just a combination of key presses that can be replayed. Let's walk through an example together:
+A VIM macro is just a combination of key presses that can be replayed. Let's walk through an example together.
 
 Imagine a `javscript` file with functions, like so.
 
@@ -43,8 +43,8 @@ Here is a possible solution:
 While recording the macro these changes should have happened:
 
 ```diff
--function test1() {};
-+const test1 = () => {};
+-function test1(a) {};
++const test1 = (a) => {};
 ```
 
 Type `n` to navigate to the next function definition and the hit `@q` to replay the recorded keystrokes (macro) again. You should end up with
@@ -63,4 +63,4 @@ const tester2 = (a, b) => {};
 const testing3 = (a, b, c) => {};
 ```
 
-Happy macro-ing!
+Cheers!

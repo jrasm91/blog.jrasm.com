@@ -13,18 +13,22 @@ menu:
       name: Posts
       url: /posts
       weight: 10
+    - identifier: tutorials
+      name: Tutorials
+      url: /tutorials
+      weight: 20
     - identifier: notes
       name: Notes
       url: /notes
-      weight: 20
+      weight: 30
     - identifier: tags
       name: Tags
       url: /tags
-      weight: 30
+      weight: 40
     - identifier: search
       name: Search
       url: /search
-      weight: 40
+      weight: 50
 
 params:
   env: production
@@ -38,6 +42,7 @@ params:
   showReadingTime: true
   showBreadCrumbs: true
   showPostNavLinks: true
+  showCodeCopyButtons: true
 
   disableScrollToTop: true
   comments: false

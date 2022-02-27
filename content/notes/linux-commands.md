@@ -1,22 +1,38 @@
 ---
-title: Personal Cheatsheet
-summary: For all those things I have to lookup over and over.
+title: Linux/Ubuntu Cheatsheet
+summary: All those I cannot seem to remember.
 created: 2022-02-02
-updated: 2022-02-02
-tags: [Linux, Ubuntu, Docker, Git, Networking, Bash, DNS, SQLite]
+updated: 2022-02-26
+tags: [Linux, Ubuntu, Networking, Bash, DNS]
 showReadingTime: false
 showToc: true
 tocOpen: true
 ---
-
-## Linux / Ubuntu
 
 ### Networking
 
 Restart network manager (reset DNS cache)
 
 ```bash
-  sudo /etc/init.d/network-manager restart
+sudo /etc/init.d/network-manager restart
+```
+
+Ports that are listening
+
+```bash
+sudo lsof -i -P -n | grep LISTEN
+```
+
+Process listening on a specific port
+
+```bash
+sudo lsof -i:3000
+```
+
+Search by process name
+
+```bash
+pgrep -a node
 ```
 
 ### Cryptography
@@ -55,6 +71,12 @@ View mounts and available space
 df -h
 ```
 
+View folder size in current directory
+
+```bash
+du -d 1
+```
+
 ### .bashrc
 
 History
@@ -77,43 +99,4 @@ Aliases
 ```bash
 alias new-password="openssl rand -base64 32"     # random characters
 alias dev="npm run start:dev"                    # dev => npm run start:dev
-```
-
-## Development
-
-### Node
-
-Executable file ("hashbang" indicator)
-
-```
-#!/usr/bin/env node
-```
-
-### Docker
-
-Tail logs
-
-```bash
-docker logs <CONTAINER> --follow
-docker logs <CONTAINER> --follow --since 1m
-docker logs <CONTAINER> --follow --since 5m
-docker logs <CONTAINER> --follow --since 1h
-```
-
-### SQLite
-
-```sqlite
-.tables       # list tables
-.mode column  # display in columns
-.headers on   # show column headers
-```
-
-### Git
-
-```
-git config --global user.name "John Doe"
-git config --global user.email john@doe.com
-git config --global core.editor vim
-git config --global log.date relative
-git config --global format.pretty format:%C(yellow)%h %Cblue%>(14)%ad %Cgreen%<(16)%aN%Cred%d %Creset%s
 ```

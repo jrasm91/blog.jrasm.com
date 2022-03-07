@@ -49,11 +49,12 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 1. [Angular](https://angular.io/)
 2. [Vue](https://v3.vuejs.org/)
 3. [React](https://reactjs.org/)
-4. [Ionic](https://ionicframework.com/)
-5. [Angular.js](https://angularjs.org/)
-6. [Nebular (ngx-admin)](https://akveo.github.io/nebular/)
-7. [React](https://reactjs.org)
-8. [Chakra UI](https://chakra-ui.com)
+4. [Next.js](https://nextjs.org/)
+5. [Ionic](https://ionicframework.com/)
+6. [Angular.js](https://angularjs.org/)
+7. [Nebular (ngx-admin)](https://akveo.github.io/nebular/)
+8. [React](https://reactjs.org)
+9. [Chakra UI](https://chakra-ui.com)
 
 ### ⚠️ Linting
 
@@ -71,10 +72,11 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 1. [Karma](https://karma-runner.github.io/latest/index.html)
 2. [Jasmin](https://jasmine.github.io/)
 3. [Mocha](https://mochajs.org/)
-4. [Protractor](https://www.protractortest.org)
-5. [Supertest](https://github.com/visionmedia/supertest#readme)
-6. [Selenium Webdriver](https://www.selenium.dev/selenium/docs/api/javascript/index.html)
-7. [Cypress](https://www.cypress.io/)
+4. [Chai](https://www.chaijs.com/)
+5. [Protractor](https://www.protractortest.org)
+6. [Supertest](https://github.com/visionmedia/supertest#readme)
+7. [Selenium Webdriver](https://www.selenium.dev/selenium/docs/api/javascript/index.html)
+8. [Cypress](https://www.cypress.io/)
 
 ### 📦 Package Managers / Registries
 
@@ -102,10 +104,10 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 ### 🔑 Authentication
 
 0. [Auth0](https://auth0.com/)
-1. [Firebase](https://firebase.google.com/)
-2. [OAuth](https://oauth.net/)
-3. [JWT: JSON Web Tokens](https://jwt.io/)
-4. [Okta](https://okta.com)
+1. [Okta](https://okta.com)
+2. [Firebase](https://firebase.google.com/)
+3. [OAuth](https://oauth.net/)
+4. [JWT: JSON Web Tokens](https://jwt.io/)
 
 ### 🧾 Databases
 
@@ -117,11 +119,13 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 5. [OracleDB](https://www.oracle.com/database/technologies/)
 6. [Firebase Firestore](https://firebase.google.com/docs/firestore)
 7. [Firebase Realtime Database](https://firebase.google.com/docs/database)
+8. [supabase](https://supabase.com/)
 
 ### ⚡ Cloud Functions
 
 0. [AWS Lambda](https://aws.amazon.com/lambda/)
 1. [Firebase Functions](https://firebase.google.com/docs/functions)
+2. [Vercel Serverless Functions](https://vercel.com/docs/concepts/functions/serverless-functions)
 
 ### ☁️ Cloud Providers & Hosting
 
@@ -147,14 +151,30 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 4. [Rancher](https://rancher.com/)
 5. [Pulumi](https://www.pulumi.com/)
 6. [NGINX](https://www.nginx.com/)
+7. [Google Domains](https://domains.google.com)
+8. [SmarterASP.NET](https://www.smarterasp.net)
+9. [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
 
-### 📝 Editors
+### 📝 Editors & Documentation
 
 0. [Visual Studio Code](https://code.visualstudio.com/)
 1. [Sublime Text](https://www.sublimetext.com/)
 2. [Atom](https://atom.io/)
 3. [Vim](https://www.vim.org/)
 4. [GNU Nano](https://www.nano-editor.org/)
+5. [GitBook](https://www.gitbook.com/)
+6. [Swagger](https://swagger.io/)
+
+### ⛓️ Crypto
+
+0. [HardHat](https://hardhat.org/)
+1. [Solidity](https://docs.soliditylang.org/)
+2. [Remix IDE](https://remix.ethereum.org)
+3. [Truffle](https://trufflesuite.com/)
+4. [MetaMask](https://metamask.io/)
+5. [useDapp](https://usedapp.io/)
+6. [ethers](https://docs.ethers.io/)
+7. [ENS: Ethereum Name Service](https://ens.domains/)
 
 ### 🔀 Other Tools
 

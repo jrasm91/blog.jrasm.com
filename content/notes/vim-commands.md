@@ -11,20 +11,19 @@ tocOpen: true
 
 ### Navigation
 
-| Command | Description                                                |
-| ------- | ---------------------------------------------------------- |
-| `h`     | left                                                       |
-| `l`     | right                                                      |
-| `j`     | up                                                         |
-| `b`     | start of previous word                                     |
-| `w`     | start of next word                                         |
-| `e`     | end of next word                                           |
-| `gg`    | go to top of file                                          |
-| `G`     | go to bottom of file                                       |
-| `zz`    | move current line to middle of screen                      |
-| `fx`    | move current (find) _next_ occurrence of character `x`     |
-| `Fx`    | move current (find) _previous_ occurrence of character `x` |
-| `zz`    | move current line to middle of screen                      |
+| Command | Description                                               |
+| ------- | --------------------------------------------------------- |
+| `h`     | left                                                      |
+| `l`     | right                                                     |
+| `j`     | up                                                        |
+| `b`     | start of previous word                                    |
+| `w`     | start of next word                                        |
+| `e`     | end of next word                                          |
+| `gg`    | go to top of file                                         |
+| `G`     | go to bottom of file                                      |
+| `zz`    | move current line to middle of screen                     |
+| `fx`    | move cursor (find) _next_ occurrence of character `x`     |
+| `Fx`    | move cursor (find) _previous_ occurrence of character `x` |
 
 ### Editing
 

@@ -11,19 +11,22 @@ tocOpen: true
 
 ### Navigation
 
-| Command | Description                                               |
-| ------- | --------------------------------------------------------- |
-| `h`     | left                                                      |
-| `l`     | right                                                     |
-| `j`     | up                                                        |
-| `b`     | start of previous word                                    |
-| `w`     | start of next word                                        |
-| `e`     | end of next word                                          |
-| `gg`    | go to top of file                                         |
-| `G`     | go to bottom of file                                      |
-| `zz`    | move current line to middle of screen                     |
-| `fx`    | move cursor (find) _next_ occurrence of character `x`     |
-| `Fx`    | move cursor (find) _previous_ occurrence of character `x` |
+| Command | Description                                           |
+| ------- | ----------------------------------------------------- |
+| `h`     | move cursor left                                      |
+| `l`     | move cursor right                                     |
+| `k`     | move cursor up                                        |
+| `j`     | move cursor down                                      |
+| `b`     | move cursor to start of _previous_ word               |
+| `w`     | move cursor to start of _next_ word                   |
+| `e`     | move cursor to _end_ of _next_ word                   |
+| `gg`    | move cursor to _top_ of file                          |
+| `G`     | move cursor to _bottom_ of file                       |
+| `fx`    | move cursor to _next_ occurrence of character `x`     |
+| `Fx`    | move cursor to _previous_ occurrence of character `x` |
+| `{`     | move cursor up a code block                           |
+| `}`     | move cursor down a code block                         |
+| `zz`    | move current line to middle of screen                 |
 
 ### Editing
 

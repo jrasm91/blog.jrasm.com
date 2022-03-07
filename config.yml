@@ -64,7 +64,7 @@ params:
   homeInfoParams:
     title: Hello 👋!
     content: >
-      I'm Jason, a 💻 fullstack developer, 👨 husband, and 👨‍👩‍👧 proud father. Welcome to "My Two Bytes", a small blog build with [Hugo](https://gohugo.io).
+      I'm Jason, a 💻 fullstack developer, 👨 husband, and 👨‍👩‍👧 proud father. Welcome to "My Two Bytes", a small blog built with [Hugo](https://gohugo.io).
 
 outputs:
   home:

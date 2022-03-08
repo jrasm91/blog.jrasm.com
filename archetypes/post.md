@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-description: Another tutorial
+description: Another post
 date: {{ .Date }}
 publishDate: {{ .Date }}
 draft: true

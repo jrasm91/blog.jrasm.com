@@ -9,7 +9,6 @@
     "start": "hugo server -D",
     "new:post": "hugo new posts/new-post.md",
     "new:note": "hugo new notes/new-note.md",
-    "new:tutorial": "hugo new tutorials/new-tutorial.md",
     "build": "hugo",
     "deploy:local": "hugo --baseURL http://localhost:8080/ && cp -R public/. /media/jrasm91/ARCHIVE/PhoneNginx/"
   },

@@ -4,7 +4,7 @@ description: Another post
 date: {{ .Date }}
 publishDate: {{ .Date }}
 draft: true
-tags: [tutorial]
+tags: [Tutorial]
 showReadingTime: true
 showToc: true
 tocOpen: false

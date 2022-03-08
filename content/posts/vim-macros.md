@@ -3,7 +3,7 @@ title: 🦾 VIM Macros
 description: Short explainer on VIM macro basics
 date: 2022-02-26
 publishDate: 2022-02-26
-tags: [tutorial, VIM, Macros]
+tags: [Tutorial, VIM, Macros]
 showReadingTime: true
 showToc: false
 tocOpen: false

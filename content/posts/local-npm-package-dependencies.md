@@ -3,7 +3,7 @@ title: '📦 Local NPM Dependencies'
 description: How to use local npm packages as dependencies in other projects.
 date: 2022-03-07
 publishDate: 2022-03-07
-tags: [tutorial, npm]
+tags: [Tutorial, JavaScript, Package Manager]
 showReadingTime: true
 showToc: false
 tocOpen: false

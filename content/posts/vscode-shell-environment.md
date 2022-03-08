@@ -1,7 +1,8 @@
 ---
 title: 🛠 Fixing VSCode Shell Environment
+description: VSCode shell resolution, explained.
 date: 2021-03-25
-publishdate: 2021-03-25
+publishDate: 2021-03-25
 tags: [VSCode, Shell, Startup Application]
 ---
 

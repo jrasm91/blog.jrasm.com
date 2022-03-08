@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-summary: Another note
-created: {{ .Date }}
-updated: {{ .Date }}
+description: Another note
+date: {{ .Date }}
+publishDate: {{ .Date }}
 draft: true
 tags: []
 showReadingTime: false

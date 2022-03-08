@@ -1,8 +1,8 @@
 ---
 title: Linux/Ubuntu Cheatsheet
-summary: All those I cannot seem to remember.
-created: 2022-02-02
-updated: 2022-02-26
+description: All those I cannot seem to remember.
+date: 2022-02-02
+publishDate: 2022-02-26
 tags: [Linux, Ubuntu, Networking, Bash, DNS]
 showReadingTime: false
 showToc: true

@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-summary: Another tutorial
-created: {{ .Date }}
-updated: {{ .Date }}
+description: Another tutorial
+date: {{ .Date }}
+publishDate: {{ .Date }}
 draft: true
 tags: [tutorial]
 showReadingTime: true

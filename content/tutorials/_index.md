@@ -1,5 +1,4 @@
 ---
 title: Tutorials
+description: A collection of explainers, mostly for myself 😁.
 ---
-
-You know, tutorials about how to do stuff.

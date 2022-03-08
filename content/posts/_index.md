@@ -1,5 +1,4 @@
 ---
 title: Posts
+description: You know, posts.
 ---
-
-You know, posts.

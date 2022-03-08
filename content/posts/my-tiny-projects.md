@@ -1,7 +1,8 @@
 ---
 title: 🚀 My Tiny Projects
+description: A personal project of personal projects.
 date: 2021-03-13
-publishdate: 2021-03-13
+publishDate: 2021-03-13
 tags: [Angular, Hugo, Projects]
 ---
 

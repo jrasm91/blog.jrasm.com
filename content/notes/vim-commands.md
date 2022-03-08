@@ -1,8 +1,8 @@
 ---
 title: 'VIM Commands'
-summary: VIM commands that I am familiar with.
-created: 2022-02-26
-updated: 2022-02-26
+description: VIM commands that I am familiar with.
+date: 2022-02-26
+publishDate: 2022-02-26
 tags: [VIM]
 showReadingTime: false
 showToc: true

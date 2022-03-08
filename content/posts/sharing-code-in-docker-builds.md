@@ -1,7 +1,8 @@
 ---
 title: 🐳 Sharing Code in Docker Builds
+description: How to share common typescript code in multiple docker builds.
 date: 2021-04-02
-publishdate: 2021-04-02
+publishDate: 2021-04-02
 cover:
   image: images/logos/docker.png
   caption: Docker

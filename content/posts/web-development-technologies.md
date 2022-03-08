@@ -1,7 +1,8 @@
 ---
 title: 📝 Web Development Technologies
+description: A list of web development technologies and tools.
 date: 2021-04-01
-publishdate: 2021-04-01
+publishDate: 2021-04-01
 tags:
   - Web
   - Development

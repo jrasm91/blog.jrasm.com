@@ -1,8 +1,8 @@
 ---
 title: Development Cheatsheet
-summary: What I inevitably lookup over and over.
-created: 2022-02-02
-updated: 2022-02-26
+description: What I inevitably lookup over and over.
+date: 2022-02-02
+publishDate: 2022-02-26
 tags: [Docker, Git, SQLite]
 showReadingTime: false
 showToc: true

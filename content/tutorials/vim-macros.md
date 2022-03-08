@@ -1,10 +1,10 @@
 ---
-title: VIM Macros
-summary: Short explainer on VIM macro basics
-created: 2022-02-26
-updated: 2022-02-26
+title: 🦾 VIM Macros
+description: Short explainer on VIM macro basics
+date: 2022-02-26
+publishDate: 2022-02-26
 tags: [VIM, Macros]
-showReadingTime: false
+showReadingTime: true
 showToc: false
 tocOpen: false
 ---

@@ -5,13 +5,18 @@ title: My Two Bytes
 enableRobotsTXT: true
 googleAnalytics: G-S7JQK5D2RV
 
+# markup:
+#   goldmark:
+#     renderer:
+#       unsafe: true
+
 theme: PaperMod
 
 menu:
   main:
-    - identifier: posts
-      name: Posts
-      url: /posts
+    - identifier: archive
+      name: Archive
+      url: /archives
       weight: 10
     - identifier: notes
       name: Notes

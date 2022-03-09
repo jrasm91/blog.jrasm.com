@@ -98,14 +98,14 @@ Or, the `CommonJS` equivalent.
 
 ```javascript
 // before
-const utils = require('utils');
+const utils = require('./utils');
 
 async function handle() {
   await utils.sleep(3);
 }
 
 // after
-const { sleep } = require('utils');
+const { sleep } = require('./utils');
 
 async function handle() {
   await sleep(3);

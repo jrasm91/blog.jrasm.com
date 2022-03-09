@@ -9,14 +9,16 @@ showToc: false
 tocOpen: false
 ---
 
-| Software                     | Description                                                                                 |
-| ---------------------------- | ------------------------------------------------------------------------------------------- |
-| [carbon.now.sh][carbon]      | Create and share beautiful images of your source code.                                      |
-| [tree.nathanfriend.io][tree] | Online version of the linux `tree` command, for generating ASCII folder structure diagrams. |
-| [es6-features.org][es6]      | Overview & comparison of ES5 vs ES6 features.                                               |
-| [remotion.dev][remotion]     | Write videos in React.                                                                      |
+| Software                  | Description                                                                                 |
+| ------------------------- | ------------------------------------------------------------------------------------------- |
+| [carbon.now.sh][0]        | Create and share beautiful images of your source code.                                      |
+| [tree.nathanfriend.io][1] | Online version of the linux `tree` command, for generating ASCII folder structure diagrams. |
+| [es6-features.org][2]     | Overview & comparison of new JavaScript features.                                           |
+| [remotion.dev][3]         | Write videos in React.                                                                      |
+| [12 Factor App][4]        | 12 best practices for designing a maintainable, scalable application.                       |
 
-[carbon]: https://carbon.now.sh
-[tree]: https://tree.nathanfriend.io/
-[es6]: http://es6-features.org/
-[remotion]: https://www.remotion.dev/
+[0]: https://carbon.now.sh
+[1]: https://tree.nathanfriend.io/
+[2]: http://es6-features.org/
+[3]: https://www.remotion.dev/
+[4]: https://12factor.net/

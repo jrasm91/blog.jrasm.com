@@ -114,7 +114,7 @@ async function handle() {
 
 ## Property Shorthand
 
-This is another feature that has removed a lot of duplicate code for me. If the object `key` and `value` variable name are same, you can use this simplified syntax.
+This is another feature that has removed a lot of duplicate code for me. If the object `key` and corresponding `value` variable name are same, you can use this simplified syntax (`{ x: x }` => `{ x }`).
 
 ```javascript
 // before

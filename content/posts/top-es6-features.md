@@ -9,9 +9,11 @@ showToc: true
 tocOpen: true
 ---
 
+A list of a few of my favorite new JavaScript features, with examples.
+
 ## Arrow Functions
 
-Arrow functions are a compact alternative to traditional function expression. They also do not require rebinding `this`. See [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) for more details.
+Compact alternative to traditional function expression. They also do not require rebinding `this`. See [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) for more details.
 
 In my opinion, `this` is one of the more tricky JavaScript concepts to grasp. It is often unintuitive and that inevitably leads to unexpected behavior. If nothing else, arrow functions usually make `this` more intuitive, leading to less error-prone code.
 

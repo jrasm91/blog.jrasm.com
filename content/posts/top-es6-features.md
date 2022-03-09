@@ -13,7 +13,7 @@ tocOpen: true
 
 Arrow functions are a compact alternative to traditional function expression. They also do not require rebinding `this`. See [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) for more details.
 
-In my opinion, understanding `this` is one of the more tricky JavaScript concepts to understand. It also is leads to a lot of unexpected behavior. Arrow functions make `this` easier to work with.
+In my opinion, `this` is one of the more tricky JavaScript concepts to grasp. It is often unintuitive and that inevitably leads to unexpected behavior. If nothing else, arrow functions usually make `this` more intuitive, leading to less error-prone code.
 
 ```javascript
 // Traditional
@@ -142,11 +142,11 @@ function handle(req, res) {
 }
 ```
 
-I especially like this shorthand approach, because resulting lines can often be further reduced. In this example, `options` became small enough (in my opinion) to inline it in the `search` function call directly.
+I especially like this shorthand approach, because resulting lines can often be further reduced. In this example, `options` becomes small enough to inline.
 
 ## Template Literals
 
-This is a great quality of life improvement, adding multiline strings to JavaScript, with easy variable interpolation.
+This is a great quality of life feature, allowing multiline strings with interpolation. Especially with longer, more complex string generation, this can make the code a lot cleaner.
 
 ```javascript
 // before
@@ -163,4 +163,4 @@ function onRegistration(user) {
 }
 ```
 
-I quickly got tired of converting strings from single quotes to backticks, but there's actually a VSCode extension specifically for this called [Template String Converter](https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter). It automatically converts surrounding single or double quotes to backticks when `${` is typed! 🎉
+I quickly got tired of converting existing strings from single quotes to backticks, but there's actually a VSCode extension specifically for this called [Template String Converter](https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter). It automatically converts surrounding single or double quotes to backticks when `${` is typed! 🎉

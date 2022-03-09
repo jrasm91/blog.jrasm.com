@@ -1,6 +1,6 @@
 ---
 title: Development Cheatsheet
-description: What I inevitably lookup over and over.
+description: My personal cheatsheet for commands I can't remember.
 date: 2022-02-02
 publishDate: 2022-02-26
 tags: [Docker, Git, SQLite]

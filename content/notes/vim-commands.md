@@ -1,6 +1,6 @@
 ---
 title: 'VIM Commands'
-description: VIM commands that I am familiar with.
+description: A list of VIM commands that I have learned, since picking up VIM in 2021.
 date: 2022-02-26
 publishDate: 2022-02-26
 tags: [VIM]

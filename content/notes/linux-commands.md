@@ -3,7 +3,7 @@ title: Linux/Ubuntu Cheatsheet
 description: All those I cannot seem to remember.
 date: 2022-02-02
 publishDate: 2022-02-26
-tags: [Linux, Ubuntu, Networking, Bash, DNS]
+tags: [Linux, Ubuntu, Networking, Bash, DNS, ext4, ec2]
 showReadingTime: false
 showToc: true
 tocOpen: true
@@ -75,6 +75,25 @@ View folder size in current directory
 
 ```bash
 du -d 1
+```
+
+Extend a Partition (ec2)
+
+```bash
+# show disk usage
+df -hT
+
+# show block devices
+lsblk
+
+# grow the <device> <partition>
+sudo growpart /dev/xvda 1
+
+# resize ext4 filesystem mounted at / (from df -hT)
+sudo resize2fs /dev/xvda1 -d /
+
+# verify again
+df -hT
 ```
 
 ### .bashrc

@@ -15,6 +15,7 @@ Restart network manager (reset DNS cache)
 
 ```bash
 sudo /etc/init.d/network-manager restart
+sudo systemd-resolve --flush-caches
 ```
 
 Ports that are listening

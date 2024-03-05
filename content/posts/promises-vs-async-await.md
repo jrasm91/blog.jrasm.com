@@ -81,8 +81,6 @@ const main = async () => {
 };
 ```
 
-### More examples coming soon!
-
 [1]: https://en.wikipedia.org/wiki/Syntactic_sugar
 [async]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
 [await]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await

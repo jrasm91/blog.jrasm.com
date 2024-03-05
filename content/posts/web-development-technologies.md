@@ -47,23 +47,29 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 ### 📚 Frameworks & Libraries
 
 0. [Bootstrap](https://getbootstrap.com/)
-1. [Angular](https://angular.io/)
-2. [Vue](https://v3.vuejs.org/)
-3. [React](https://reactjs.org/)
-4. [Next.js](https://nextjs.org/)
-5. [Ionic](https://ionicframework.com/)
-6. [Angular.js](https://angularjs.org/)
-7. [Nebular (ngx-admin)](https://akveo.github.io/nebular/)
-8. [React](https://reactjs.org)
-9. [Chakra UI](https://chakra-ui.com)
+1. [Tailwind CSS](https://tailwindcss.com)
+2. [Angular](https://angular.io/)
+3. [NestJS](https://nestjs.com/)
+4. [Express.js](https://expressjs.com/)
+5. [Vue](https://v3.vuejs.org/)
+6. [React](https://reactjs.org/)
+7. [Next.js](https://nextjs.org/)
+8. [Ionic](https://ionicframework.com/)
+9. [Angular.js](https://angularjs.org/)
+10. [Nebular (ngx-admin)](https://akveo.github.io/nebular/)
+11. [React](https://reactjs.org/)
+12. [Svelte](https://svelte.dev/)
+13. [SvelteKit](https://kit.svelte.dev/)
+14. [Hugo](https://gohugo.io/)
+15. [11ty](https://www.11ty.dev/)
 
 ### ⚠️ Linting
 
 0. [commitlint](https://commitlint.js.org/)
 1. [Standardjs](https://standardjs.com/)
-2. [Prettier](https://prettier.io/)
-3. [ESLint](https://eslint.org/)
-4. [TSLint](https://palantir.github.io/tslint/)
+2. [ESLint](https://eslint.org/)
+3. [TSLint](https://palantir.github.io/tslint/)
+4. [Prettier](https://prettier.io/)
 5. [Husky](https://typicode.github.io/husky)
 6. [Lint Staged](https://github.com/okonet/lint-staged#readme)
 
@@ -78,6 +84,7 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 6. [Supertest](https://github.com/visionmedia/supertest#readme)
 7. [Selenium Webdriver](https://www.selenium.dev/selenium/docs/api/javascript/index.html)
 8. [Cypress](https://www.cypress.io/)
+9. [Vitest](https://vitest.dev/)
 
 ### 📦 Package Managers / Registries
 
@@ -95,6 +102,7 @@ I'm a webdeveloper and I have found that I use a _lot_ of different technologies
 1. [Parcel](https://parceljs.org/)
 2. [Grunt](https://gruntjs.com/)
 3. [Gulp](https://gulpjs.com/)
+4. [Vite](https://vitejs.dev/)
 
 ### ️🔗 Version Control
 

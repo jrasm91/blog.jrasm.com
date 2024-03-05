@@ -27,7 +27,7 @@ For example, pass data to a component via a property:
   export let enabled: boolean;
 </script>
 
-{#if !enabled}
+{#if enabled}
  <span>I'm enabled! 😂</span>
 {:else}
  <span>I'm not enabled. 😢</span>
